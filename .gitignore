@@ -1,0 +1,5 @@
+__pycache__/
+*.ckpt
+work/
+docs/data/names.json
+docs/data/chats/

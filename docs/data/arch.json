@@ -1,0 +1,157 @@
+{
+ "model": "orb-v3-conservative-inf-omat-20250404",
+ "checkpoint_sha256": "0a41ef1132ad9c41ee0c7b9d855fccabfefb97abe04625c97ec0d07930b6c0f0",
+ "N": 1024,
+ "side": 32,
+ "layers": [
+  {
+   "key": "L0_h1",
+   "idx": 0,
+   "block": 0,
+   "h": 1,
+   "name": "Encoder \u00b7 layer 1",
+   "live": 319,
+   "eta_units": 1.0,
+   "eta_rand": 1.0,
+   "kurt_median": 8.5
+  },
+  {
+   "key": "L0_h2",
+   "idx": 1,
+   "block": 0,
+   "h": 2,
+   "name": "Encoder \u00b7 layer 2",
+   "live": 988,
+   "eta_units": 1.0,
+   "eta_rand": 1.0,
+   "kurt_median": -0.3
+  },
+  {
+   "key": "L1_h1",
+   "idx": 2,
+   "block": 1,
+   "h": 1,
+   "name": "Block 1 \u00b7 layer 1",
+   "live": 677,
+   "eta_units": 0.702,
+   "eta_rand": 0.725,
+   "kurt_median": 3.1
+  },
+  {
+   "key": "L1_h2",
+   "idx": 3,
+   "block": 1,
+   "h": 2,
+   "name": "Block 1 \u00b7 layer 2",
+   "live": 848,
+   "eta_units": 0.738,
+   "eta_rand": 0.681,
+   "kurt_median": 0.3
+  },
+  {
+   "key": "L2_h1",
+   "idx": 4,
+   "block": 2,
+   "h": 1,
+   "name": "Block 2 \u00b7 layer 1",
+   "live": 1024,
+   "eta_units": 0.617,
+   "eta_rand": 0.645,
+   "kurt_median": 8.0
+  },
+  {
+   "key": "L2_h2",
+   "idx": 5,
+   "block": 2,
+   "h": 2,
+   "name": "Block 2 \u00b7 layer 2",
+   "live": 1024,
+   "eta_units": 0.612,
+   "eta_rand": 0.651,
+   "kurt_median": 8.3
+  },
+  {
+   "key": "L3_h1",
+   "idx": 6,
+   "block": 3,
+   "h": 1,
+   "name": "Block 3 \u00b7 layer 1",
+   "live": 841,
+   "eta_units": 0.642,
+   "eta_rand": 0.635,
+   "kurt_median": 3.1
+  },
+  {
+   "key": "L3_h2",
+   "idx": 7,
+   "block": 3,
+   "h": 2,
+   "name": "Block 3 \u00b7 layer 2",
+   "live": 906,
+   "eta_units": 0.541,
+   "eta_rand": 0.641,
+   "kurt_median": 0.7
+  },
+  {
+   "key": "L4_h1",
+   "idx": 8,
+   "block": 4,
+   "h": 1,
+   "name": "Block 4 \u00b7 layer 1",
+   "live": 1013,
+   "eta_units": 0.56,
+   "eta_rand": 0.62,
+   "kurt_median": 2.8
+  },
+  {
+   "key": "L4_h2",
+   "idx": 9,
+   "block": 4,
+   "h": 2,
+   "name": "Block 4 \u00b7 layer 2",
+   "live": 1023,
+   "eta_units": 0.615,
+   "eta_rand": 0.659,
+   "kurt_median": 1.3
+  },
+  {
+   "key": "L5_h1",
+   "idx": 10,
+   "block": 5,
+   "h": 1,
+   "name": "Block 5 \u00b7 layer 1",
+   "live": 479,
+   "eta_units": 0.629,
+   "eta_rand": 0.725,
+   "kurt_median": -0.2
+  },
+  {
+   "key": "L5_h2",
+   "idx": 11,
+   "block": 5,
+   "h": 2,
+   "name": "Block 5 \u00b7 layer 2",
+   "live": 984,
+   "eta_units": 0.616,
+   "eta_rand": 0.592,
+   "kurt_median": -0.9
+  }
+ ],
+ "fires_k": 12,
+ "n_crystals": 48,
+ "n_extra": 0,
+ "n_atoms": 148,
+ "n_atoms_all": 148,
+ "ckpts": [],
+ "built": "2026-11-09 20:45Z",
+ "labels": {
+  "cn": "coordination number",
+  "nn": "nearest-neighbour distance"
+ },
+ "random_dirs": 256,
+ "notes": [
+  "Activations: Orb-v3 conservative-inf-omat, compile=False, float32-high, CPU, on the demo crystals (built with ASE, relaxed with the same model).",
+  "Statistics (top atoms, z-scores, labels, kurtosis) are over the demo atoms only; with a small set they are illustrative.",
+  "Descriptive only; a label describes the strongest atoms, not a verified function."
+ ]
+}
