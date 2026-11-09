@@ -2,6 +2,8 @@
 
 A browsable 3D map of the node neurons inside **Orb-v3**, a machine-learned interatomic potential from Orbital Materials (checkpoint `orb-v3-conservative-inf-omat-20250404`). The encoder and five message-passing blocks are drawn as sheets of 1,024 glowing dots, 12,288 units per atom. Click a unit to see which atoms and crystals it fires on, which units feed it and which it feeds (read from the weights), and how its activation lines up with simple atom facts. Pick a crystal to see what fires on each of its atoms in 3D.
 
+**Live demo:** https://aaryans.page/orb-neuron-explorer/
+
 > **What this repository is.** This is the tool, shipped with a small demo data set so it runs out of the box. The demo crystals are textbook structures chosen to show how the explorer works; they are not the data set of my research and the labels they produce are not research findings. The research results built with this tool are being written up for publication and are deliberately not released here.
 
 ## Run it
